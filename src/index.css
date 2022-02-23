@@ -1,15 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
-
-* {
-  box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 html {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Press Start 2P', 'sans-serif';
 }
 
 body {
   margin: 0;
-  background-color: #3f3f3f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* *:hover {
+  cursor:default
+} */
+
+html {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  margin: 0 0 0 0;
+}
+
+input, select, option, optgroup, textarea, button,
+pre, code {
+  font-size: 100%;
+  font-family: inherit;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 0;
 }
 

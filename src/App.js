@@ -1,8 +1,11 @@
+import Background from './components/UI/Background'
+import Nav from './components/Nav/Nav'
+
 function App() {
   return (
-    <div>
-      <h2>Let's get started!</h2>
-    </div>
+    <Background>
+      <Nav />
+    </Background>
   );
 }
 

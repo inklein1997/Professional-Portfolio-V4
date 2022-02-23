@@ -8,7 +8,7 @@ const AboutMe = () => {
     return (
         <section className={classes.section}>
             <Card className={classes.profile}>
-                <img src={profilePic} alt="a professional picture of Michael Klein" />
+                <img src={profilePic} alt="a portrait of Michael Klein" />
             </Card>
             <div className={classes.aboutMeContext}>
                 <div className={classes.aboutMeText} >

@@ -5,12 +5,13 @@ import Nav from '../Nav/Nav'
 import AboutMeContent from './AboutMeContent'
 import Floor from '../UI/Floor'
 
+
 const AboutMe = () => {
     return (
-        <Background>
+        <Background addClass={classes.underground__background}>
             <Nav />
             <AboutMeContent />
-            <Floor />
+            <Floor addClass={classes.underground__floor}/>
         </Background>
     )
 }

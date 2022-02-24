@@ -1,6 +1,6 @@
-.card-underground {
-    background-color: #008C8D;
+.card {
     padding: 10px;
+    background-color: #008C8D;
     box-shadow: -5px -5px 0 0.5px white, 5px 5px 0 0.5px #414141;
     color: white;
 }

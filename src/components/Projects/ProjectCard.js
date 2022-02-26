@@ -22,7 +22,7 @@ const projectData = [
         title: 'MoodyFoody',
         description: 'A restaurant filter and locator',
         technologies: ['Materialize', 'Google Cloud Platform', 'Yelp API'],
-        deployedLink: 'https://inklein1997.github.io/moodyfoody/',
+        deployedLink: 'https://inklein1997.github.io/MoodyFoody/',
         githubLink: 'https://github.com/inklein1997/MoodyFoody',
         img_url: MoodyFoodyImg,
     },
@@ -38,7 +38,7 @@ const projectData = [
         title: 'Code Quiz',
         description: 'A front end application that quizzes the user regarding JavaScript methods and fundamentals.',
         technologies: ['JavaScript', 'Local Storage', 'CSS3', 'HTML5'],
-        deployedLink: 'https://inklein1997.github.io/javascript-quiz/',
+        deployedLink: 'https://inklein1997.github.io/Javascript-Quiz/',
         githubLink: 'https://github.com/inklein1997/Javascript-Quiz',
         img_url: codeQuizImg,
     }

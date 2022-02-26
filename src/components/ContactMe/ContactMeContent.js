@@ -8,12 +8,6 @@ import githubBlock from '../../assets/images/contact-blocks/github-block.png'
 
 
 const ContactMeContent = () => {
-
-    const redirectToLinkedIn = () => {
-        window.location.href = 'https://www.google.com'
-        return null
-    }
-
     return (
         <section className={classes.section}>
             <div className={classes.contactMeText}>

@@ -51,7 +51,7 @@ const ProjectCard = (props) => {
         switch (props.selection) {
             case 'ProManj':
                 return projectData[0];
-            case 'DevMorns':
+            case 'MoodyFoody':
                 return projectData[1];
             case 'Weather Dashboard':
                 return projectData[2];

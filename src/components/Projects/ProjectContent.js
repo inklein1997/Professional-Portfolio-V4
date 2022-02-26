@@ -17,7 +17,7 @@ const ProjectContent = () => {
             <div className={classes.projectList}>
                 <Card className={classes.card}><h2>Projects</h2></Card>
                 <button onClick={projectSelectionHandler}>ProManj</button>
-                <button onClick={projectSelectionHandler}>DevMorns</button>
+                <button onClick={projectSelectionHandler}>MoodyFoody</button>
                 <button onClick={projectSelectionHandler}>Weather Dashboard</button>
                 <button onClick={projectSelectionHandler}>Code Quiz</button>
                 {/* <button>Placeholder</button> */}

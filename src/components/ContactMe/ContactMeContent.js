@@ -13,7 +13,7 @@ const ContactMeContent = () => {
             <div className={classes.contactMeText}>
                 <h2>Connect with me!</h2>
                 <h3>Where you are an employer or a fellow developer, I would love to hear from you!<br /><br />
-                    Click <span>HERE</span> for my resume. <br /><br />
+                    Click <a href='https://docs.google.com/document/d/13wgjALPAew1QubTti2xNGs2z75RIJSjGPYnktDMlePk/edit?usp=sharing' target="_blank">HERE</a> for my resume. <br /><br />
                     Phone: 512-879-7927</h3>
                 <div>
                     <a href="https://www.linkedin.com/in/michaeljosephklein/" target="_blank" rel="noopener noreferrer"><img src={linkedInBlock} alt="linkedIn Logo" /></a>
@@ -21,7 +21,7 @@ const ContactMeContent = () => {
                     <a href="https://github.com/inklein1997" target="_blank" rel="noopener noreferrer"><img src={githubBlock} alt="github Logo" /></a>
                 </div>
             </div>
-            <Card className={classes.card}>
+            {/* <Card className={classes.card}>
                 <form className={classes.form}>
                     <div>
                         <label htmlFor='nameInput'>Your Name</label>
@@ -37,7 +37,7 @@ const ContactMeContent = () => {
                     </div>
                     <button type='submit'>Send Message</button>
                 </form>
-            </Card>
+            </Card> */}
             <h2 className={classes.alternateText}>Connect with me!</h2>
 
         </section>

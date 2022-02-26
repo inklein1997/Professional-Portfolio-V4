@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/Professional-Portfolio-V4/static/css/main.02a2313d.chunk.css",
+    "main.js": "/Professional-Portfolio-V4/static/js/main.37768bdc.chunk.js",
+    "main.js.map": "/Professional-Portfolio-V4/static/js/main.37768bdc.chunk.js.map",
+    "runtime-main.js": "/Professional-Portfolio-V4/static/js/runtime-main.8b88b79e.js",
+    "runtime-main.js.map": "/Professional-Portfolio-V4/static/js/runtime-main.8b88b79e.js.map",
+    "static/js/2.f4561ba6.chunk.js": "/Professional-Portfolio-V4/static/js/2.f4561ba6.chunk.js",
+    "static/js/2.f4561ba6.chunk.js.map": "/Professional-Portfolio-V4/static/js/2.f4561ba6.chunk.js.map",
+    "index.html": "/Professional-Portfolio-V4/index.html",
+    "static/css/main.02a2313d.chunk.css.map": "/Professional-Portfolio-V4/static/css/main.02a2313d.chunk.css.map",
+    "static/js/2.f4561ba6.chunk.js.LICENSE.txt": "/Professional-Portfolio-V4/static/js/2.f4561ba6.chunk.js.LICENSE.txt",
+    "static/media/JavaScript-Quiz.b94c326e.gif": "/Professional-Portfolio-V4/static/media/JavaScript-Quiz.b94c326e.gif",
+    "static/media/KeepUP.c95917c8.png": "/Professional-Portfolio-V4/static/media/KeepUP.c95917c8.png",
+    "static/media/MoodyFoody.20ae94f0.gif": "/Professional-Portfolio-V4/static/media/MoodyFoody.20ae94f0.gif",
+    "static/media/Weather-Dashboard.064a82af.gif": "/Professional-Portfolio-V4/static/media/Weather-Dashboard.064a82af.gif",
+    "static/media/Ceiling.module.css": "/Professional-Portfolio-V4/static/media/underwater-floor.76656ee5.jpg",
+    "static/media/ContactMe.module.css": "/Professional-Portfolio-V4/static/media/boss-floor.5ee600ba.jpg",
+    "static/media/email-block.fada51f0.png": "/Professional-Portfolio-V4/static/media/email-block.fada51f0.png",
+    "static/media/github-block.f5f54d96.png": "/Professional-Portfolio-V4/static/media/github-block.f5f54d96.png",
+    "static/media/Lava.module.css": "/Professional-Portfolio-V4/static/media/lava.959f7c56.jpg",
+    "static/media/linkedin-block.a231ee9a.png": "/Professional-Portfolio-V4/static/media/linkedin-block.a231ee9a.png",
+    "static/media/mario-right.28446166.png": "/Professional-Portfolio-V4/static/media/mario-right.28446166.png",
+    "static/media/mushroom-marker-blue.cc3904d5.png": "/Professional-Portfolio-V4/static/media/mushroom-marker-blue.cc3904d5.png",
+    "static/media/mushroom-marker.a16f622c.png": "/Professional-Portfolio-V4/static/media/mushroom-marker.a16f622c.png",
+    "static/media/Homepage.module.css": "/Professional-Portfolio-V4/static/media/outside-ground.b6e8adb6.jpg",
+    "static/media/PipeRight.module.css": "/Professional-Portfolio-V4/static/media/pipe-base-open-from-left-side.e6d494ef.jpg",
+    "static/media/PipeLeft.module.css": "/Professional-Portfolio-V4/static/media/pipe-base-open-from-right-side.bf6ec397.jpg",
+    "static/media/pipe-head-open-from-left.9a798b8e.png": "/Professional-Portfolio-V4/static/media/pipe-head-open-from-left.9a798b8e.png",
+    "static/media/pipe-head-open-from-right.b6f703fb.png": "/Professional-Portfolio-V4/static/media/pipe-head-open-from-right.b6f703fb.png",
+    "static/media/profile-cut-out.0e5a8a19.png": "/Professional-Portfolio-V4/static/media/profile-cut-out.0e5a8a19.png",
+    "static/media/react-mario-block.6a81f2be.png": "/Professional-Portfolio-V4/static/media/react-mario-block.6a81f2be.png",
+    "static/media/AboutMe.module.css": "/Professional-Portfolio-V4/static/media/underground-floor.dc0fbff2.jpg",
+    "static/media/websitelogo.913d0338.png": "/Professional-Portfolio-V4/static/media/websitelogo.913d0338.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8b88b79e.js",
+    "static/js/2.f4561ba6.chunk.js",
+    "static/css/main.02a2313d.chunk.css",
+    "static/js/main.37768bdc.chunk.js"
+  ]
+}

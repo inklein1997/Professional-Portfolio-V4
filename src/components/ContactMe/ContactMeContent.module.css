@@ -51,9 +51,9 @@
     .section {
         gap: 10px;
     }
-    .contactMeText {
+    /* .contactMeText {
         min-width: 266px;
-    }
+    } */
     .card {
         width:300px;
     }
@@ -78,6 +78,7 @@
     }
     .contactMeText h2 {
         display: none;
+        text-align: center;
     }
     .alternateText {
         display: block;
@@ -98,4 +99,19 @@
         font-size: 12px;
         width: 100%;
     }
+}
+
+@media screen and (max-width: 320px) {
+    .contactMeText h3 {
+        font-size: 8px;
+        flex-wrap: wrap;
+    }
+    .connectWithMeText {
+        font-size: 12px;
+        text-align: center;
+    }
+    /* .contactMeText div a img {
+        height: 30px;
+        width: 30px
+    } */
 }

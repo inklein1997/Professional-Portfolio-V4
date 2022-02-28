@@ -6,7 +6,7 @@ import PageContextProvider from '../../store/page-context'
 import Card from '../UI/Card'
 
 const Anchor = () => {
-    // const [selectedPage, setSelectedPage] = useState('Home Page');
+    const [pageTransition, setPageTransition] = useState(false);
     const [pageSelection, setPageSelection] = useContext(PageContext)
     console.log(pageSelection)
 
@@ -25,12 +25,15 @@ const Anchor = () => {
 
     console.log(cardColorHandler())
     const navigationHandler = (e) => {
+        setPageTransition(true)
+        setTimeout(() => setPageSelection(e.target.innerHTML), 1000)
         console.log(e.target.innerHTML)
-        setPageSelection(e.target.innerHTML)
     }
+
 
     return (
         <PageContextProvider>
+            {pageTransition && <div className={classes.transitionDiv}></div>}
             <Card className={cardColorHandler()}><button onClick={navigationHandler}>Home Page</button></Card>
             <Card className={cardColorHandler()}><button onClick={navigationHandler}>About Me</button></Card>
             <Card className={cardColorHandler()}><button onClick={navigationHandler}>Projects</button></Card>

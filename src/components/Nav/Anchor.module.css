@@ -23,6 +23,17 @@
     box-shadow: -5px -5px 0 0.5px white, 5px 5px 0 0.5px #414141;
 }
 
+.orange:hover,
+.grey:hover,
+.green:hover, 
+.blue:hover,
+.orange button:hover,
+.grey button:hover,
+.green button:hover, 
+.blue button:hover {
+    cursor: pointer;
+}
+
 .transitionDiv {
     height: 100vh;
     width:100vw;

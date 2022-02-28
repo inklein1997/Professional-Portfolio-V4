@@ -25,15 +25,15 @@ const Anchor = () => {
 
     console.log(cardColorHandler())
     const navigationHandler = (e) => {
-        setPageTransition(true)
-        setTimeout(() => setPageSelection(e.target.innerHTML), 1000)
+        // setPageTransition(true)
+       setPageSelection(e.target.innerHTML)
         console.log(e.target.innerHTML)
     }
 
 
     return (
         <PageContextProvider>
-            {pageTransition && <div className={classes.transitionDiv}></div>}
+            {/* {pageTransition && <div className={classes.transitionDiv}></div>} */}
             <Card className={cardColorHandler()}><button onClick={navigationHandler}>Home Page</button></Card>
             <Card className={cardColorHandler()}><button onClick={navigationHandler}>About Me</button></Card>
             <Card className={cardColorHandler()}><button onClick={navigationHandler}>Projects</button></Card>

@@ -42,3 +42,12 @@
     z-index: 1;
     transition: 1s linear;
 }
+
+@media screen and (max-width:336px) {
+    .orange button,
+    .green button,
+    .blue button,
+    .grey button {
+        font-size: 8px;
+    }
+}

@@ -98,3 +98,19 @@
     /* font-size: 1.4vw; */
 }
 }
+
+@media screen and (max-width:400px) {
+    .aboutMeText h2 {
+        font-size: 12px;
+    }
+    .aboutMeText h3 {
+        font-size: 8px;
+    }
+    .technologies {
+        flex-wrap: wrap;
+    }
+    .technologies img {
+        width: 30px!important;
+        height:30px!important;
+    }
+}

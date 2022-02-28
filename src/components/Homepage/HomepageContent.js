@@ -12,15 +12,12 @@ const HomepageContent = () => {
         </Card>
         <nav>
             <div>
-                <img src={mushroom} />
                 <button><a href="mailto:michaelklein1997@gmail.com">MichaelKlein1997@gmail.com</a></button>
             </div>
             <div>
-                <img src={mushroomBlue} />
                 <button>512-879-7927</button>
             </div>
             <div>
-                <img src={mushroomBlue} />
                 <button>Click <a href='https://docs.google.com/document/d/13wgjALPAew1QubTti2xNGs2z75RIJSjGPYnktDMlePk/edit?usp=sharing' target="_blank">HERE</a> for my Resume</button>
             </div>
         </nav>

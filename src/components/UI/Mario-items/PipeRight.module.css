@@ -17,3 +17,9 @@
     background-repeat: repeat-x;
     width:10vw;
 }
+
+@media screen and (max-width:654px) {
+    .rightPipe {
+        display: none;
+    }
+}

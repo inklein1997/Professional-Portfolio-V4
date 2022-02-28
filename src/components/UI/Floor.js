@@ -5,9 +5,9 @@ import Mario from './Mario-items/Mario'
 
 const Floor = (props) => {
     return <div className={`${classes.floor} ${props.addClass}`}>
-        <PipeLeft />
-        <Mario />
-        <PipeRight />
+        <PipeLeft className={classes.hide}/>
+        <Mario className={classes.hide}/>
+        <PipeRight className={classes.hide}/>
     </div>
 }
 

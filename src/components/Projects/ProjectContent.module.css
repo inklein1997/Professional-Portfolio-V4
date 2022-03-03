@@ -1,4 +1,4 @@
-.section {
+/* .section {
     display: flex;
     margin: 0 5vw;
     gap: 5vw;
@@ -8,9 +8,7 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
-    /* flex: 1 1 50%; */
     width: 30%;
-    /* min-width: 300px; */
 }
 
 .projectList button {
@@ -33,7 +31,7 @@
 
 @media screen and (max-width:1020px) {
     .section {
-        flex-wrap: wrap;
+        flex-wrap: wrap-reverse;
     }
     .card {
         display:none;
@@ -51,6 +49,96 @@
 @media screen and (max-width:332px) {
     .projectList button {
         font-size: 14px;
-        
     } 
+} */
+.section {
+    height: 60%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    margin-bottom: 10vh;
+}
+
+.projectsHeader {
+    margin: 0 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projectsHeader h1{
+    font-size: 32px;
+}
+
+.projectsHeader h2{
+    font-size: 10px!important;
+}
+
+.projectsList {
+    overflow-y: scroll;
+    padding:5px 0;
+    display: flex;
+    flex-direction: column;
+    gap:5vh;
+}
+
+
+.projectsList::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    height: 50vh;
+    margin: 0 5vw;
+    background-color: #23AE0A;
+    box-shadow: -5px -5px 0 0.5px white, 5px 5px 0 0.5px black;
+    display: flex;
+    gap:2%;
+}
+
+.card img {
+    width: 40%;
+}
+
+.card div {
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.projectDetailsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} 
+
+.projectDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.projectDetails h2 {
+    font-size: 26px;
+}
+
+.projectDetails h3 {
+    font-size: 14px;
+}
+
+.projectDetails h4 {
+    font-size: 14px;
+}
+
+.linkBlocks {
+    display: flex;
+    gap:10px;
+    flex-direction: row!important;
+}
+
+.linkBlocks img,
+.linkBlocks a {
+    width: 50px;
+    height: 50px;
 }

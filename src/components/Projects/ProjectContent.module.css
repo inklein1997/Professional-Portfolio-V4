@@ -142,3 +142,25 @@
     width: 50px;
     height: 50px;
 }
+
+@media screen and (max-width:752px) {
+    .card {
+        flex-wrap: wrap;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .card img {
+        width: 100%;
+    }
+    .card div {
+        flex-basis: 100%;
+    }
+    .projectsList {
+        height:700px
+    }
+    .section {
+        padding-top:8vh;
+        height:77vh;
+        margin-bottom:0;
+    }
+}

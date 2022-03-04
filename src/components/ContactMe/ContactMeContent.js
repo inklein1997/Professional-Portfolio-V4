@@ -5,7 +5,7 @@ import linkedInBlock from '../../assets/images/contact-blocks/linkedin-block.png
 import emailBlock from '../../assets/images/contact-blocks/email-block.png'
 import githubBlock from '../../assets/images/contact-blocks/github-block.png'
 
-
+import Form from './Form'
 
 const ContactMeContent = () => {
     return (
@@ -21,23 +21,9 @@ const ContactMeContent = () => {
                     <a href="https://github.com/inklein1997" target="_blank" rel="noopener noreferrer"><img src={githubBlock} alt="github Logo" /></a>
                 </div>
             </div>
-            {/* <Card className={classes.card}>
-                <form className={classes.form}>
-                    <div>
-                        <label htmlFor='nameInput'>Your Name</label>
-                        <input type="text" placeholder='Enter your Name' id='nameInput' />
-                    </div>
-                    <div>
-                        <label htmlFor='emailInput'>Your Name</label>
-                        <input type="text" placeholder='Enter your Email' id='emailInput' />
-                    </div>
-                    <div>
-                        <label htmlFor='messageInput'>Your Message</label>
-                        <textarea type="text" rows='5' placeholder='Hello Michael.  We are looking for a full stack developer to hire for company X.  I would love to connect with you.' id='nameInput' />
-                    </div>
-                    <button type='submit'>Send Message</button>
-                </form>
-            </Card> */}
+            <Card className={classes.card}>
+                <Form />
+            </Card>
             <h2 className={classes.alternateText}>Connect with me!</h2>
 
         </section>
